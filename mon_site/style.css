@@ -1,0 +1,248 @@
+/*
+Theme Name: Hestia enfant
+Description: Theme enfant de Marion Renard
+Author: Marion Renard
+Author URI: http://rwd-marionrenard.com/
+Template: Hestia 
+Version: 0.1.0
+*/
+
+/*--------------------------------------------------
+					GENERAL
+--------------------------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------------------------------
+					ACCUEIL
+--------------------------------------------------*/
+/*HEADER*/
+.navbar.navbar-default.navbar-fixed-top.navbar-color-on-scroll.navbar-transparent.hestia_center{
+	background-color: rgba(255,255,255,0.5);
+	border: none;
+}
+#menu-menu-superieur a{
+	color: #000;
+}
+
+/*SECTION TITRE*/
+#carousel-hestia-generic{
+	top: -50px;
+	height: 710px;
+}
+
+.big-title-slider-content.text-center.col-sm-8.col-sm-offset-2{	
+		animation: slidedown 3s;
+}
+
+@keyframes slidedown{
+	0%{
+		transform: translateY(-200%);
+	}
+}
+
+/*BIENVENUE*/
+#contenu_bienvenue{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#contenu_bienvenue p{
+	color: #000;
+	text-align: center;
+}
+
+#icones_accueil{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin-top: 50px;
+}
+
+.block_icons{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.block_icons a{
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.block_icons p{
+	margin-bottom: 0;
+}
+
+.block_icons img{
+	height: 50px;
+}
+
+/*ENCART ACTU*/
+.subscribe-line.subscribe-line-image{
+	margin-top: 100px;
+}
+.card-form-horizontal .content{
+	width: 70%;
+	margin: auto;
+}
+
+/*FOOTER*/
+.footer .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.footer .content{
+	width: 100%;
+}
+
+.footer-big .row .col-md-4{
+	width: 100%;
+	
+}
+
+#custom_html-3{
+	width: 100%;
+}
+
+.textwidget.custom-html-widget{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-paragraph{
+	width: 20%;
+}
+
+.footer-paragraph h4{
+	margin: 0;
+	font-size: 1.2em;
+}
+
+/*--------------------------------------------------
+				ACTUALITES DU MOIS
+--------------------------------------------------*/
+
+.col-md-offset-2{
+	margin: 0;
+}
+
+.col-md-8{
+	width: 100%;
+}
+
+.table-line{
+	border-top: 1px solid #e91e63;
+	border-bottom: 1px solid #e91e63;
+}
+
+.table-line:hover{
+	background-color: rgba(233,30,99,0.4);
+}
+
+.table-header{
+	text-align: center;
+}
+
+.description{
+	color: #000;
+}
+
+.table-cell{
+	font-size: 0.8em;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.inscription-cell a:hover{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 800;
+}
+
+/*PAGE INSCRIPTION*/
+.em-booking-login-form.form-group{
+	display: none;
+}
+
+.em-booking-form-details{
+	width: 60%;
+}
+
+.em-booking-form label{
+	width: 160%;
+}
+
+/*--------------------------------------------------
+						CONTACT
+--------------------------------------------------*/
+
+#block_horaires{
+	margin-bottom: 100px;
+}
+
+#block_contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
